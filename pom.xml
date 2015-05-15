@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>no.atc.osvein.bukkit.pickpocket</groupId>
 	<artifactId>pickpocket</artifactId>
-	<version>0</version>
+	<version>0.1-SNAPSHOT</version>
 
 	<parent>
 		<groupId>no.atc</groupId>

@@ -1,0 +1,20 @@
+name: "${project.name}"
+version: "${project.version}"
+description: "${project.description}"
+author: osvein
+website: "${project.url}"
+main: "no.atc.osvein.bukkit.pickpocket.Pickpocket"
+
+commands:
+  pickpocket:
+    description: Access another player's inventory
+    permission: pickpocket
+    usage: /<command> <player>
+
+permissions:
+  pickpocket:
+    description: Grants access to other players' inventories
+    default: op
+  pickpocket.vulnerable:
+    description: Grants pickpockets access to one's inventory
+    default: true
